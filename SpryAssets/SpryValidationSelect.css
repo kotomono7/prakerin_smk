@@ -1,0 +1,18 @@
+.selectRequiredMsg, .selectInvalidMsg {
+	display: none;
+}
+.selectRequiredState .selectRequiredMsg,
+.selectInvalidState .selectInvalidMsg {
+	display: inline;
+	color: #CC3333;
+}
+.selectValidState select, select.selectValidState {
+	background-color: #B8F5B1;
+}
+select.selectRequiredState, .selectRequiredState select,
+select.selectInvalidState, .selectInvalidState select {
+	background-color: #FF9F9F;
+}
+.selectFocusState select, select.selectFocusState {
+	background-color: #FFFFCC;
+}

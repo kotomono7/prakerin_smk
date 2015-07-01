@@ -1,0 +1,22 @@
+.confirmRequiredMsg, 
+.confirmInvalidMsg, 
+.confirmValidMsg {
+	display: none;
+}
+.confirmRequiredState .confirmRequiredMsg,
+.confirmInvalidState .confirmInvalidMsg
+{
+	display: inline;
+	color: #CC3333;
+}
+.confirmValidState input, input.confirmValidState {
+	background-color: #B8F5B1;
+}
+input.confirmRequiredState, .confirmRequiredState input, 
+input.confirmInvalidState, .confirmInvalidState input
+{
+	background-color: #FF9F9F;
+}
+.confirmFocusState input, input.confirmFocusState {
+	background-color: #FFFFCC;
+}
